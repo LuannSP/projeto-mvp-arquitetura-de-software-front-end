@@ -1,0 +1,17 @@
+.selected {
+    background-color: #f0f0f0; 
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+}
+
+.delete-icon.hidden {
+    display: none;
+}
+
+.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
